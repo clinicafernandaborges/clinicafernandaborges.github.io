@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clínica Fernanda Borges | K-Beauty & Glass Skin Spa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Top Pastel Ribbon -->
+  <div class="top-ribbon">
+    <span class="badge-dot"></span>
+    <strong>Clínica Fernanda Borges</strong> • A Ciência da Glass Skin Coreana no Brasil • Experiência Sensorial Hanok Contemporâneo & Zero Downtime
+  </div>
+
+  <!-- Sticky Navigation -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand">
+        <div class="brand-monogram">FB</div>
+        <div class="brand-text">
+          <span class="brand-name">Fernanda Borges</span>
+          <span class="brand-sub">K-Beauty & Glass Skin Spa</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#filosofia">Skin First</a></li>
+        <li><a href="#protocolos">Protocolos (7)</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn-primary" onclick="openBookingModal()">Agendar K-Skin 3D</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">✨ Estética Regenerativa Sul-Coreana • Zero Downtime</div>
+        <h1>A Ciência da <em>Glass Skin</em> Coreana por Fernanda Borges</h1>
+        <p class="hero-lead">
+          Esqueça procedimentos agressivos, ácidos que queimam e descamações dolorosas. Na <strong>Clínica Fernanda Borges</strong>, unimos biotecnologia coreana de ponta (PDRN, Exossomos e Aqua Peel), fortalecimento da barreira cutânea em camadas (<em>Layering</em>) e um ritual sensorial ASMR em tons suaves.
+        </p>
+
+        <div class="hero-cta-group">
+          <button class="btn-primary" onclick="openBookingModal('K-Skin Check 3D (Consulta Diagnóstica)')">
+            Escaneamento Facial 3D com IA
+          </button>
+          <a href="#protocolos" class="btn-pastel">Conhecer os 7 Protocolos</a>
+        </div>
+
+        <div class="hero-pillars">
+          <div class="pillar-mini">
+            <strong>10 Passos</strong>
+            <span>Ritual Glass Skin & Mirror Skin autenticado</span>
+          </div>
+          <div class="pillar-mini">
+            <strong>80% Conversão</strong>
+            <span>Diagnóstico Facial 3D IA de 8 parâmetros</span>
+          </div>
+          <div class="pillar-mini">
+            <strong>100% ANVISA</strong>
+            <span>Dermocosméticos sul-coreanos homologados</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="glass-showcase">
+          <div class="glass-orb">
+            <span class="korean-script">유리 피부 • GLASS SKIN</span>
+            <h3>Fernanda Borges</h3>
+            <p>Barreira Cutânea Íntegra, Luminosidade Translúcida & Hidratação Profunda</p>
+          </div>
+
+          <div class="sensory-tags">
+            <span class="sensory-tag">🍵 Lounge Chá Boricha & Matcha</span>
+            <span class="sensory-tag">🧬 PDRN de Salmão & Exossomos</span>
+            <span class="sensory-tag">🎧 Cabines Acústicas ASMR 2700K</span>
+            <span class="sensory-tag">🌸 K-Beauty Bar Interativo</span>
+          </div>
+
+          <div class="kbeauty-bar-card">
+            <h4>
+              <span>Experiência K-Beauty Bar na Recepção</span>
+              <span style="font-size: 0.78rem; color: var(--rose-600); font-family: 'Plus Jakarta Sans', sans-serif;">Conceito Hanok</span>
+            </h4>
+            <p>
+              Bancada iluminada com espelho e cuba de apoio onde você experimenta texturas de <em>cleansing oils</em>, <em>essences</em> de mucina de caracol e <em>sun sticks</em> enquanto degusta chá de cevada coreano <em>Boricha</em>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Philosophy Comparison Section -->
+  <section id="filosofia">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">Filosofia Skin First</div>
+        <h2>Por que a Estética Coreana Revoluciona o Cuidado com a Pele?</h2>
+        <p>Enquanto o modelo ocidental tradicional foca em agredir para regenerar, a Clínica Fernanda Borges atua na prevenção, nutrição celular e respeito absoluto ao microbioma da sua pele.</p>
+      </div>
+
+      <div class="comparison-grid">
+        <div class="comp-card traditional">
+          <h3>Estética Ocidental Tradicional</h3>
+          <ul class="comp-list">
+            <li>
+              <span class="comp-icon">✕</span>
+              <div><strong>Procedimentos Agressivos:</strong> Peelings químicos fortes que queimam, geram vermelhidão extrema e descamação intensa.</div>
+            </li>
+            <li>
+              <span class="comp-icon">✕</span>
+              <div><strong>Downtime Elevado:</strong> Dias sem poder se expor ao sol ou usar maquiagem devido à sensibilização da barreira.</div>
+            </li>
+            <li>
+              <span class="comp-icon">✕</span>
+              <div><strong>Foco Paliativo e Doloroso:</strong> Extrações traumáticas e indicações comerciais sem escaneamento digital prévio.</div>
+            </li>
+            <li>
+              <span class="comp-icon">✕</span>
+              <div><strong>Ambiente Hospitalar Frio:</strong> Luz branca direta sobre os olhos na maca e ausência de acolhimento acústico.</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="comp-card kbeauty">
+          <h3>Clínica Fernanda Borges (K-Beauty Spa)</h3>
+          <ul class="comp-list">
+            <li>
+              <span class="comp-icon">✓</span>
+              <div><strong>Abordagem "Skin First" Regenerativa:</strong> Fortalecimento da barreira cutânea com Ceramidas, Centella Asiática (Cica) e Probióticos.</div>
+            </li>
+            <li>
+              <span class="comp-icon">✓</span>
+              <div><strong>Biotecnologia Zero Downtime:</strong> Eletroporação sem agulhas, Aqua Peel a vácuo suave, PDRN e Exossomos com brilho imediato.</div>
+            </li>
+            <li>
+              <span class="comp-icon">✓</span>
+              <div><strong>Hidratação em Camadas (Layering):</strong> Aplicação sequencial de ativos biofermentados para conquistar a verdadeira <em>Glass Skin</em>.</div>
+            </li>
+            <li>
+              <span class="comp-icon">✓</span>
+              <div><strong>Imersão Hanok & ASMR:</strong> Macas aquecidas, iluminação indireta 2700K, toalhas aromáticas no <em>Hot Cabi</em> e Head Spa com arco de água.</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 Signature Protocols -->
+  <section id="protocolos">
+    <div class="container">
+      <div class="section-header">
+        <div class="eyebrow">Engenharia de Cardápio • 7 Protocolos Assinatura</div>
+        <h2>Menu Clínico K-Beauty & Terapias Coreanas</h2>
+        <p>Protocolos exclusivos realizados em cabine com insumos sul-coreanos originais, biotecnologia indolor e experiência sensorial completa.</p>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter-chip active" data-filter="all">Todos os Protocolos (7)</button>
+        <button class="filter-chip" data-filter="diagnostico">Diagnóstico 3D IA</button>
+        <button class="filter-chip" data-filter="facial">Glass Skin & Acne</button>
+        <button class="filter-chip" data-filter="lifting">PDRN, Exossomos & V-Line</button>
+        <button class="filter-chip" data-filter="headspa">Korean Head Spa</button>
+        <button class="filter-chip" data-filter="clube">Assinatura K-Club</button>
+      </div>
+
+      <div id="protocolsGrid" class="protocols-grid"></div>
+    </div>
+  </section>
+
+  <!-- CTA Booking Banner -->
+  <div class="container" style="margin-top: 24px;">
+    <div class="booking-banner">
+      <div class="eyebrow">🌸 Agende sua Experiência K-Beauty</div>
+      <h2>Pronta para descobrir a sua verdadeira <em>Glass Skin</em>?</h2>
+      <p>Inicie sua jornada na <strong>Clínica Fernanda Borges</strong> com o nosso <strong>K-Skin Check 3D</strong>: escaneamento facial por Inteligência Artificial com prescrição personalizada e valor 100% revertido no seu protocolo.</p>
+      <button class="btn-primary" onclick="openBookingModal('K-Skin Check 3D (Consulta Diagnóstica)')">
+        Agendar Avaliação Facial 3D
+      </button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p style="font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; font-weight: 700; color: var(--sage-800); margin-bottom: 6px;">
+        Clínica Fernanda Borges • K-Beauty & Glass Skin Spa
+      </p>
+      <p>A Ciência da Glass Skin Coreana no Brasil • Cosméticos 100% Regularizados na ANVISA • Arquitetura Hanok Contemporâneo</p>
+    </div>
+  </footer>
+
+  <!-- Interactive Booking Modal -->
+  <div id="bookingModal" class="modal-backdrop">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeBookingModal()">✕</button>
+      <div class="eyebrow" style="margin-bottom: 10px;">Concierge K-Beauty</div>
+      <h3 style="font-size: 1.8rem; color: var(--sage-800); margin-bottom: 8px;">Agendar na Clínica Fernanda Borges</h3>
+      <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 20px;">
+        Escolha o seu protocolo coreano e prepare-se para degustar nosso chá <em>Boricha</em> ou <em>Matcha</em> no K-Beauty Bar.
+      </p>
+
+      <form onsubmit="submitBooking(event)">
+        <div class="form-group">
+          <label for="clientName">Seu Nome Completo</label>
+          <input type="text" id="clientName" required placeholder="Ex: Carolina Martins" />
+        </div>
+        <div class="form-group">
+          <label for="clientPhone">WhatsApp</label>
+          <input type="tel" id="clientPhone" required placeholder="(11) 99999-9999" />
+        </div>
+        <div class="form-group">
+          <label for="protocolSelect">Protocolo Desejado</label>
+          <select id="protocolSelect">
+            <option value="K-Skin Check 3D (Consulta Diagnóstica)">K-Skin Check 3D (Consulta Diagnóstica) — R$ 180,00</option>
+            <option value="Protocolo Assinatura Glass Skin 10 Passos">Protocolo Assinatura Glass Skin 10 Passos — R$ 390,00</option>
+            <option value="Cica Acne & Pore Control">Cica Acne & Pore Control — R$ 340,00</option>
+            <option value="K-Bio Rejuvenation (PDRN & Exossomos)">K-Bio Rejuvenation (PDRN & Exossomos) — R$ 890,00</option>
+            <option value="V-Line Korean Lifting">V-Line Korean Lifting — R$ 650,00</option>
+            <option value="Royal Korean Head Spa (Terapia Capilar & Relax)">Royal Korean Head Spa — R$ 420,00</option>
+            <option value="Assinatura Mensal K-Club Glow">Assinatura Mensal K-Club Glow — R$ 449,00/mês</option>
+          </select>
+        </div>
+        <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; margin-top: 8px;">
+          Confirmar Pré-Agendamento
+        </button>
+      </form>
+
+      <div id="bookingFeedback" style="display: none; margin-top: 16px; padding: 14px; border-radius: 12px; background: var(--pastel-sage-100); color: var(--sage-800); font-size: 0.86rem;"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
